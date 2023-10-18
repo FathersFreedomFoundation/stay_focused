@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Merged Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="merge.css">
+</head>
+<body>
+    <canvas id="webglCanvas"></canvas>
+    <!-- ... rest of your HTML content ... -->
+    <script src="webgl-background.js"></script>
+    <script src="merge.js"></script> <!-- Keep only one instance -->
+    <div id="animatedBoxContainer" class="container">
+        <div class="box"></div>
+    </div>
+    <!-- ... rest of your HTML content ... -->
+    <script src="https://cdn.skypack.dev/simplex-noise@4.0.0"></script>
+    <div id="overlayText">NOOB</div>
+</body>
+</html>
